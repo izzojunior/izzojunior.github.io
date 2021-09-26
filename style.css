@@ -1,1 +1,61 @@
+* {
+    padding: 10px;
+    margin: 10px;
+    
+}
 
+#img{
+    position: absolute;
+    right: 135px;
+
+}
+header {
+    background-color:rgba(0, 38, 255, 0.808);
+    border: 2px solid rgb(0, 0, 0);
+    padding: 1px;
+    margin: 4px;
+    border-radius: 30px;
+    padding: 0 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    position:absolute; 
+    top:70%;
+    left:33%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(0, 0, 0);
+    height: 60px;
+    line-height: 30px;
+    padding: 0 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 30px;
+    background-color:rgba(0, 38, 255, 0.808)
+}
+h1{
+    color: rgba(255, 255, 255, 0.932);
+}
+
+body{
+    background-image: url("fundo2.jpg");
+    background-size: cover;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#alterar{
+    font-style: italic;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 30px;
+    background-color:rgba(0, 38, 255, 0.808)
+}
